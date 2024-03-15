@@ -29,6 +29,6 @@ To build a functional, user-friendly interface using HTML, CSS, and vanilla Java
 
 Develop the features as described in the Features section. Pay attention to the details in the design mockups provided in the assignment brief.
 
-The CSS file, logo, and base HTML have been provided.
+The CSS file, logo, and base JS and HTML files have been provided.
 
 
