@@ -12,7 +12,40 @@
         <img src="assets/Accessfit.png" alt="AccessFit Logo">
     </div>
     <h1>AccessFit Admin System</h1>
+    
+    <div class="task">
+        <h2>Monthly Membership Fee:</h2>
+        <div id="total-membership-fee"></div>
+    </div>
 
+    <div class="task">
+        <h2>New Gym Membership Client</h2>
+        <p>If the client has signed up with a personal trainer, please add the trainer's name</p>
+        <label for="member-name-input">Member Name</label>
+        <input type="text" id="member-name-input">
+        <label for="member-type-select">Member Level</label>
+        <input type="text" id="member-type-select">
+        <select>
+            <option value="Standard">Standard</option>
+            <option value="Premium">Premium</option>
+        </select>
+        <label for="trainer-name-input">Trainer Name (optional)</label>
+        <input type="text" id="trainer-name-input">
+        <button>create-member-btn</button>
+        <ul id="all-member-list"></ul>
+    </div>
+
+    <div class="task">
+        <h3>Paid Gym Classes:</h3>
+        <ul id="gym-classes"></ul>
+    </div>
+
+    <div class="task">
+        <h3>Create a New Gym Class:</h3>
+        <input type="text" placeholder="Class Name">
+        <input type="number" placeholder="Class Price">
+        <button>Create Class</button>
+    </div>
 </div>
 <script src="scripts/script.js"></script>
 </body>
