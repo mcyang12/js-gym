@@ -19,19 +19,18 @@
     </div>
 
     <div class="task">
-        <h2>New Gym Membership Client</h2>
+        <h2>New Gym Member Client</h2>
         <p>If the client has signed up with a personal trainer, please add the trainer's name</p>
         <label for="member-name-input">Member Name</label>
         <input type="text" id="member-name-input">
-        <label for="member-type-select">Member Level</label>
-        <input type="text" id="member-type-select">
-        <select>
+        <label for="member-type-select">Membership Level</label>
+        <select id="member-type-select">
             <option value="Standard">Standard</option>
             <option value="Premium">Premium</option>
         </select>
         <label for="trainer-name-input">Trainer Name (optional)</label>
         <input type="text" id="trainer-name-input">
-        <button>create-member-btn</button>
+        <button id="create-member-btn">Create New Client</button>
         <ul id="all-member-list"></ul>
     </div>
 
@@ -41,11 +40,15 @@
     </div>
 
     <div class="task">
-        <h3>Create a New Gym Class:</h3>
-        <input type="text" placeholder="Class Name">
-        <input type="number" placeholder="Class Price">
-        <button>Create Class</button>
+       <h3>Create a New Gym Class:</h3> 
+       <label for="class-name-input">Class Name</label>
+       <input type="text" id="class-name-input">
+       <label for="class-price-input">Class Price</label>
+       <input type="number" id="class-price-input">
+       <button id="create-class-btn">Create Class</button>
     </div>
+
+
 </div>
 <script src="scripts/script.js"></script>
 </body>

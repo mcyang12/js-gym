@@ -77,4 +77,15 @@ document.addEventListener('DOMContentLoaded', () => {
         members.push(member);
         displayArrayList(members, 'all-member-list');
     };
+
+    document.getElementById('create-class-btn').onclick = () =>{
+       const name =  document.getElementById('class-name-input').value;
+       const price = parseFloat(document.getElementById('class-price-input').value);
+       const gymClass = new GymClass(name, price);
+
+       gymClasses.push(gymClass);
+
+       displayArrayList(filterPaidClasses(gymClasses), 'gym-classes');
+    }
+
 })
